@@ -1,4 +1,4 @@
-name: Deploy static site to GitHub Pages
+name: Deploy SEO-ready static site to GitHub Pages
 
 on:
   push:
@@ -23,12 +23,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Generate SEO-ready site
+        run: python tools/generate_seo_site.py
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact
+
+      - name: Upload public site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "dist"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
