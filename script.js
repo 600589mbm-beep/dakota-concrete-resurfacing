@@ -30,16 +30,16 @@ if(services&&!document.querySelector('#gallery')){
   gallery.innerHTML=`
     <div class="container">
       <div class="section-heading centered">
-        <p class="eyebrow">Before &amp; after inspiration</p>
-        <h2>See how resurfacing can completely change concrete.</h2>
-        <p>Explore twelve visual examples across driveways, garages, patios, pool decks, sidewalks, steps, commercial areas, and warehouse floors.</p>
+        <p class="eyebrow">Residential before &amp; after inspiration</p>
+        <h2>See how resurfacing can transform residential concrete.</h2>
+        <p>Explore twelve residential-only visual examples across driveways, patios, pool decks, sidewalks, walkways, front entries, and steps.</p>
       </div>
       <div class="gallery-rows">
-        <figure class="gallery-row"><img src="images/gallery/gallery-row-1.svg" alt="Four illustrative before and after concrete resurfacing examples including driveway, garage floor, patio and pool deck" loading="lazy"><figcaption>Driveways · Garage floors · Patios · Pool decks</figcaption></figure>
-        <figure class="gallery-row"><img src="images/gallery/gallery-row-2.svg" alt="Four illustrative before and after concrete resurfacing examples including sidewalk, front entry, commercial lot and warehouse floor" loading="lazy"><figcaption>Sidewalks · Front entries · Commercial surfaces · Warehouse floors</figcaption></figure>
-        <figure class="gallery-row"><img src="images/gallery/gallery-row-3.svg" alt="Four additional illustrative before and after concrete resurfacing examples including stamped patio, driveway, pool deck and steps" loading="lazy"><figcaption>Stamped patios · Driveways · Pool decks · Steps</figcaption></figure>
+        <figure class="gallery-row"><img src="images/gallery/gallery-row-1.svg" alt="Four illustrative residential before and after concrete resurfacing examples including driveway, patio, pool deck and sidewalk" loading="lazy"><figcaption>Driveways · Patios · Pool decks · Sidewalks</figcaption></figure>
+        <figure class="gallery-row"><img src="images/gallery/gallery-row-2.svg" alt="Four illustrative residential before and after concrete resurfacing examples including front entry, steps, stamped patio and driveway" loading="lazy"><figcaption>Front entries · Steps · Stamped patios · Driveways</figcaption></figure>
+        <figure class="gallery-row"><img src="images/gallery/gallery-row-3.svg" alt="Four additional illustrative residential before and after concrete resurfacing examples including walkway, pool deck, patio and front step" loading="lazy"><figcaption>Walkways · Pool decks · Patios · Front steps</figcaption></figure>
       </div>
-      <p class="gallery-disclaimer">Illustrative transformation examples shown for design inspiration. Finished appearance varies by slab condition, selected system, texture, and color. These should be replaced with verified Dakota project photography as completed work becomes available.</p>
+      <p class="gallery-disclaimer">Illustrative residential transformation examples shown for design inspiration. Finished appearance varies by slab condition, selected system, texture, and color. These should be replaced with verified Dakota residential project photography as completed work becomes available.</p>
       <div class="gallery-cta"><a class="button" href="#estimate">Get a Free Concrete Assessment</a></div>
     </div>`;
   services.insertAdjacentElement('afterend',gallery);
