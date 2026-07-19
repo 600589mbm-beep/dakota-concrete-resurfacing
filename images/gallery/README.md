@@ -1,0 +1,1 @@
+Illustrative before-and-after gallery assets for the Dakota Concrete Resurfacing website.
