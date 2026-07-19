@@ -30,6 +30,9 @@ jobs:
       - name: Apply Google Search Essentials
         run: python tools/apply_search_essentials.py
 
+      - name: Apply homeowner experience enhancements
+        run: python tools/apply_site_enhancements.py
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
